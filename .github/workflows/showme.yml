@@ -9,6 +9,7 @@ jobs:
 #       - uses: actions/setup-node@v3
 #         with:
 #           node-version: '14'
-      - run: npm install
+#       - run: npm install
       - run: npm init
       - run: echo "init completed Arka"
+      - run: node NewTransaction.js
