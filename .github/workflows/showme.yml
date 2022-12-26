@@ -10,6 +10,7 @@ jobs:
 #         with:
 #           node-version: '14'
 #       - run: npm install
-      - run: npm init
-      - run: echo "init completed Arka"
-      - run: node NewTransaction.js
+      - run: |
+        npm init
+        node newTransactions.js
+      - run: echo "init completed Arka" 
