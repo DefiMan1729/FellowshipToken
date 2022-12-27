@@ -1,5 +1,11 @@
 # Token Interaction using a Docker image
 ## Step by Step (Copy Paste) guide to Dockerizing a simple Node app that mints an NFT on the Goerli network. 
+
+In this project I will be interacting with an existing ERC721 contract in Goerli network:
+```shell
+Contract Address: 0xc1F3Bc65DB1dA258A42d88f08a6379e90eA54da3
+```
+
 I have used Infura (but works for Alchemy also). Here is the simple Web3 code to post a mint transaction (refer file NewTransaction.js)
 ```shell
 const Web3 = require("web3");
