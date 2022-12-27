@@ -5,7 +5,6 @@ I have used Infura (but works for Alchemy also). Here is the simple Web3 code to
 const Web3 = require("web3");
 require("dotenv").config();
 const abi = require('./newABI.json'); 
-// I have just used a local ABI, you can extract the ABI from Etherscan if your //contract is verified. 
 address=process.env.MY_ADDRESS;
 
 async function main(){
