@@ -71,3 +71,8 @@ Then build your image
 ```shell
 docker build . -t <tag user name>/<tag app name>
 ```
+you can see the docker images using:
+```shell
+docker images
+```
+Use docker run to execute the image 
