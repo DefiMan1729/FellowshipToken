@@ -1,5 +1,5 @@
 # Token Interaction using a Docker image
-## Step by Step (Copy Paste) guide to Dockerizing (if there is such a word) a simple Node app that mints an NFT on the Goerli network. 
+## Step by Step (Copy Paste) guide to Dockerizing a simple Node app that mints an NFT on the Goerli network. 
 I have used Infura (but works for Alchemy also). Here is the simple Web3 code to post a mint transaction (refer file NewTransaction.js)
 ```shell
 const Web3 = require("web3");
